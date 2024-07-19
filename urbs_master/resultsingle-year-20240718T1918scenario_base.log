@@ -1,0 +1,27 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --log resultsingle-year-20240718T1918scenario_base.log --write C:\Users\LENOVO\AppData\Local\Temp\tmpnhcwirz2.glpk.raw
+ --wglp C:\Users\LENOVO\AppData\Local\Temp\tmprcuczmmm.glpk.glp --cpxlp C:\Users\LENOVO\AppData\Local\Temp\tmpbazhxfl9.pyomo.lp
+Reading problem data from 'C:\Users\LENOVO\AppData\Local\Temp\tmpbazhxfl9.pyomo.lp'...
+6749 rows, 5741 columns, 16620 non-zeros
+42622 lines were read
+Writing problem data to 'C:\Users\LENOVO\AppData\Local\Temp\tmprcuczmmm.glpk.glp'...
+31177 lines were written
+GLPK Simplex Optimizer 5.0
+6749 rows, 5741 columns, 16620 non-zeros
+Preprocessing...
+3484 rows, 2701 columns, 7419 non-zeros
+Scaling...
+ A: min|aij| =  1.000e-03  max|aij| =  1.000e+00  ratio =  1.000e+03
+GM: min|aij| =  3.134e-01  max|aij| =  3.191e+00  ratio =  1.018e+01
+EQ: min|aij| =  9.822e-02  max|aij| =  1.000e+00  ratio =  1.018e+01
+Constructing initial basis...
+Size of triangular part is 3484
+      0: obj =  -2.740121334e+15 inf =   2.083e+05 (665)
+    346: obj =   1.479386857e+11 inf =   3.945e-14 (0) 3
+*   349: obj =   1.134865541e+11 inf =   3.009e-14 (0)
+OPTIMAL LP SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 6.2 Mb (6536308 bytes)
+Writing basic solution to 'C:\Users\LENOVO\AppData\Local\Temp\tmpnhcwirz2.glpk.raw'...
+12499 lines were written

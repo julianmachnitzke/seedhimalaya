@@ -1,0 +1,24 @@
+
+Gurobi 11.0.2 (win64) logging started Sat Jul 13 12:59:41 2024
+
+Set parameter LogFile to value "resultRun-20240713T1259scenario_base.log"
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 162 rows, 137 columns and 386 nonzeros
+Model fingerprint: 0x004af26b
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e-07, 1e+04]
+Presolve removed 162 rows and 137 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    8.0927376e+06   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  8.092737639e+06

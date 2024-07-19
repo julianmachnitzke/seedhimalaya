@@ -1,0 +1,10 @@
+flask
+geopandas
+shapely
+requests
+pandas
+rtree
+os
+json
+werkzeug
+e .
